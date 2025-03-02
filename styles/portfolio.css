@@ -1,6 +1,6 @@
 :root {
     --branding-color:  #d9aaff;
-    --secondary-color: linear-gradient(89.9deg, rgb(208, 246, 255) 0.1%, rgb(255, 237, 237) 47.9%, rgb(255, 255, 231) 100.2%);
+    --secondary-color: radial-gradient(circle at 10% 20%, rgb(221, 49, 49) 0%, rgb(119, 0, 0) 90%);;
     --heading-font-family: "Gloock", serif;
     --default-font-family: "Gowun Dodum", sans-serif;
     --secondary-font-family: "Caveat", cursive;
