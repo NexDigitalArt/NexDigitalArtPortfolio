@@ -74,14 +74,20 @@
     padding: 60px 20px;
   }
   
+  .about h1, h2, h3, p {
+    color: #ffffff;
+  }
+
   .content h1 {
     font-size: 64px;
     line-height: 80px;
+ 
   }
   
   .content h2 {
     font-size: 18px;
     font-family: var(--default-font-family);
+
   }
   
   .content h3 {
@@ -89,10 +95,12 @@
     line-height: 1.5;
   
     font-family: var(--default-font-family);
+
   }
   
   .content p {
     font-size: 14px;
+   
   }
   
   .content {
@@ -109,6 +117,10 @@
     padding: 15px 30px;
   }
   
+  .about-btn {
+    border: 0.5px solid rgb(255, 255, 255);
+  }
+
   .btn-branding:hover {
     background: rgb(233, 233, 233);
     color: rgb(0, 0, 0);
@@ -151,6 +163,10 @@
   
   nav {
     padding: 20px 0;
+  }
+
+  nav.about a {
+    color: #ffffff;
   }
   
   nav ul {
@@ -203,6 +219,10 @@
     color: var(--branding-color);
     font-size: 24px;
   }
+
+  .about-email a {
+    color: #ffffff;
+  }
   
   footer .email-link:hover {
     color: rgba(213, 0, 0, 0.897);
@@ -210,10 +230,15 @@
   
   footer .social-links a {
     margin: 0 20px;
-    color: var(--branding-color);
-    background: white;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     font-size: 18px;
     transition: all 100ms ease-in-out;
+  }
+
+  footer .about a {
+    color: white;
+    background: rgb(0, 0, 0);
   }
   
   footer .social-links a:hover {
