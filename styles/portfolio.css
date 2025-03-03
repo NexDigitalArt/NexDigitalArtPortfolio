@@ -109,6 +109,10 @@
     font-size: 20px !important;
   }
 
+  .content h1.work {
+    font-size: 55px !important;
+  }
+
   .content-container {
     padding: 60px 20px;
   }
