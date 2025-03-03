@@ -55,6 +55,27 @@
     padding: 80px 20px;
   }
   
+  .services {
+    font-family: var(--heading-font-family);
+    margin: auto;
+    padding: 40px;
+  }
+
+  .services h1 {
+    text-align: left;
+    font-size: 45px;
+    color: #000000;
+  }
+
+  .services p {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-align: left;
+    padding-right: 0;
+    padding-top: 15px;
+    font-family: var(--default-font-family);
+  }
+
   .hero p {
     font-size: 50px;
     font-weight: bold;
@@ -73,6 +94,19 @@
     line-height: 1.5;
     font-size: 24px;
     color: #e3e3e3;
+  }
+
+  .hero h2.index {
+    font-size: 40px;
+    font-family: var(--secondary-font-family);
+  }
+  
+  .about h1 {
+    font-size: 50px !important;
+  }
+
+  .about p {
+    font-size: 20px !important;
   }
 
   .content-container {
@@ -127,13 +161,24 @@
   }
   
   .about-btn {
-    border: 0.5px solid rgb(255, 255, 255);
+    background-color: #ffffff;
+    color: #000000;
+  }
+
+  .about-btn:hover {
+    background-color: #000000 !important;
+    color: #ffffff !important;
   }
 
   .btn-branding:hover {
     background: rgb(233, 233, 233);
     color: rgb(0, 0, 0);
     border: 1px solid rgb(255, 255, 255);
+  }
+
+ .btn-branding-outline.index:hover {
+    background: var(--branding-color);
+    color: rgb(255, 255, 255);
   }
   
   .btn-branding-outline {
