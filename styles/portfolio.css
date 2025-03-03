@@ -44,6 +44,11 @@
     line-height: 30px;
   }
   
+  p.index {
+    color: #000000;
+    background: #ffffff;
+  }
+
   .hero {
     background: var(--secondary-color);
     text-align: center;
@@ -69,7 +74,7 @@
     font-size: 24px;
     color: #e3e3e3;
   }
-  
+
   .content-container {
     padding: 60px 20px;
   }
@@ -101,6 +106,10 @@
   .content p {
     font-size: 14px;
    
+  }
+
+  div.index {
+    background: var(--secondary-color);
   }
   
   .content {
@@ -169,6 +178,10 @@
     color: #ffffff;
   }
   
+  nav.index a {
+    color: #ffffff;
+  }
+
   nav ul {
     padding: 0;
     margin: 0;
@@ -189,9 +202,17 @@
   
   nav a:hover,
   nav li.active a {
-    color: rgba(213, 0, 0, 0.897);
+    color: rgba(202, 31, 31, 0.897);
   }
-  
+
+  nav li.active a.index-home {
+    color: rgba(0, 0, 0, 0.897);
+  }
+
+  nav a.index:hover {
+    color: #000000;
+  }
+
   footer {
     margin: 60px 0;
   }
