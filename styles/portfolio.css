@@ -50,7 +50,6 @@
   }
 
   .hero {
-    background: var(--secondary-color);
     text-align: center;
     padding: 80px 20px;
   }
@@ -147,7 +146,7 @@
   }
 
   div.index {
-    background: var(--secondary-color);
+    background-image: url("/images/web\ banner.jpg");
   }
   
   .content {
@@ -184,7 +183,16 @@
     background: var(--branding-color);
     color: rgb(255, 255, 255);
   }
+
+  .btn.btn-branding.index {
+    background-color: rgba(146, 0, 0, 0.897);
+  }
   
+  .btn.btn-branding.index:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+
   .btn-branding-outline {
     color: var(--branding-color);
     border: 1px solid white;
@@ -255,11 +263,11 @@
   }
 
   nav li.active a.index-home {
-    color: rgba(0, 0, 0, 0.897);
+    color: rgba(202, 31, 31, 0.897);
   }
 
   nav a.index:hover {
-    color: #000000;
+    color: rgba(202, 31, 31, 0.897);
   }
 
   footer {
