@@ -194,7 +194,8 @@
   
 
   .btn-branding-outline {
-    color: var(--branding-color);
+    background-color: black;
+    color: #ffffff;
     border: 1px solid white;
     border-radius: 4px;
     font-size: 18px;
@@ -204,8 +205,8 @@
   }
   
   .btn-branding-outline:hover {
-    background: var(--branding-color);
-    color: rgb(0, 0, 0);
+    background: rgba(146, 0, 0, 0.897) !important;
+    color: rgb(0, 0, 0) !important;
   }
   
   .project-description {
@@ -225,6 +226,7 @@
 
   .text-muted{
     font-size: 25px;
+    color: #000000 !important;
   }
   
   nav {
