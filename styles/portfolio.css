@@ -206,7 +206,7 @@
   
   .btn-branding-outline:hover {
     background: rgba(146, 0, 0, 0.897) !important;
-    color: rgb(0, 0, 0) !important;
+    color: rgb(255, 255, 255) !important;
   }
   
   .project-description {
