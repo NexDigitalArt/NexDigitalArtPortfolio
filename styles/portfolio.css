@@ -358,7 +358,7 @@
     }
   
     .content h1 {
-      font-size: 30px !important;
+      font-size: 25px !important;
     }
 
     .content p {
@@ -408,6 +408,18 @@
     }
 
     .content h1.work {
-      font-size: 30px !important;
+      font-size: 25px !important;
+    }
+
+    .btn-branding {
+      font-size: 12px;
+    }
+
+    .form-label {
+      font-size: 14px;
+    }
+
+    .content h3 {
+      font-size: 17px;
     }
 }
