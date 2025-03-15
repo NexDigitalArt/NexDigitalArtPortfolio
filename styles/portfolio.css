@@ -340,11 +340,11 @@
     }
     
     .hero h1{
-      font-size: 47px;
+      font-size: 36px;
     }
     
     .hero h2{
-      font-size: 17spx;
+      font-size: 15px !important;
     }
 
     .hero p {
@@ -358,7 +358,11 @@
     }
   
     .content h1 {
-      font-size: 40px;
+      font-size: 30px !important;
+    }
+
+    .content p {
+      font-size: 14px !important;
     }
 
     .project-description {
@@ -369,8 +373,41 @@
     .img-fluid {
       max-width: 100%;
       height: auto;
-  }
-  .text-muted{
-    font-size: 18px;
-  }
-  }
+    }
+
+    .text-muted {
+      font-size: 15px;
+    }
+
+    .btn.btn-branding.index {
+      font-size: 12px;
+    }
+
+    p.index {
+      font-size: 14px;
+    }
+
+    .btn-branding-outline {
+      font-size: 12px;
+    }
+
+    .services p {
+      font-size: 15px;
+    }
+
+    .services h1 {
+      font-size: 25px;
+    }
+
+    footer .email-link {
+      font-size: 15px;
+    }
+
+    .about-btn {
+      font-size: 12px;
+    }
+
+    .content h1.work {
+      font-size: 30px !important;
+    }
+}
