@@ -335,7 +335,29 @@
     border-top: 4px solid rgb(255, 255, 255); 
     margin: 20px 0; 
   }
-  
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 0 15px; 
+}
+
+
+img {
+  max-width: 100%; 
+  height: auto;
+}
+
+
   @media (max-width: 900px) {
     h1 {
       font-size: 40px;
