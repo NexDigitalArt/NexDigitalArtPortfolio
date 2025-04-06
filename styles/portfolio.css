@@ -358,6 +358,32 @@ img {
 }
 
 
+/* برای دسکتاپ */
+footer .contact-box {
+  padding: 30px 80px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* برای تبلت */
+@media (max-width: 992px) {
+  footer .contact-box {
+    padding: 25px 50px;
+  }
+}
+
+/* برای موبایل */
+@media (max-width: 768px) {
+  footer .contact-box {
+    padding: 20px 30px;
+    flex-direction: column;
+    text-align: center;
+  }
+  footer .contact-box div:last-child {
+    margin-top: 15px;
+  }
+}
+
   @media (max-width: 900px) {
     h1 {
       font-size: 40px;
