@@ -47,6 +47,7 @@
   p.index {
     color: #000000;
     background: #ffffff;
+    font-size: 30px;
   }
 
   .hero {
@@ -323,6 +324,10 @@
   
   footer .social-links a:hover {
     background: white;
+  }
+
+  .background {
+    background-image: url("/images/WEB\ BACK.jpg");
   }
   
   @media (max-width: 900px) {
